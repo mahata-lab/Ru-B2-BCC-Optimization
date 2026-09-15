@@ -1,0 +1,27 @@
+SYSTEM  = Ru-refractory relax
+ENCUT   = 400
+PREC    = Accurate
+
+# Electronic
+EDIFF   = 1E-06
+ISMEAR  = 1          # Methfessel-Paxton, good for metals
+SIGMA   = 0.20
+NELM    = 100
+ALGO    = Normal
+LASPH   = .TRUE.
+
+# Ionic relaxation
+IBRION  = 2          # Conjugate gradient
+NSW     = 80
+ISIF    = 4          # Relax ions + volume, keep shape (good for BCC/B2)
+EDIFFG  = -1E-02
+
+# Real-space projection
+LREAL   = Auto
+
+# Reduce file size
+LWAVE   = .FALSE.    # No WAVECAR
+LCHARG  = .FALSE.    # No CHGCAR
+LVTOT   = .FALSE.
+LVHAR   = .FALSE.
+NWRITE  = 2

@@ -1,0 +1,26 @@
+SYSTEM  = Ru-refractory static
+ENCUT   = 400
+PREC    = Accurate
+
+# Electronic (tighter)
+EDIFF   = 1E-07
+ISMEAR  = 1          # Keep same smearing for consistency
+SIGMA   = 0.20
+NELM    = 150
+ALGO    = Normal
+LASPH   = .TRUE.
+
+# No ionic moves
+IBRION  = -1
+NSW     = 0
+ISIF    = 2
+
+# Real-space projection
+LREAL   = Auto
+
+# Reduce file size
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
+LVTOT   = .FALSE.
+LVHAR   = .FALSE.
+NWRITE  = 2

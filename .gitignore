@@ -1,0 +1,39 @@
+# VASP raw outputs (large / not for version control)
+OUTCAR*
+CHG
+CHGCAR
+WAVECAR
+vasprun.xml
+DOSCAR
+EIGENVAL
+PROCAR
+XDATCAR
+OSZICAR
+CONTCAR
+# VASP pseudopotentials (licensed - do not distribute)
+POTCAR*
+
+# Serialized models / large binaries
+*.joblib
+*.zip
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.spl
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store
+Thumbs.db

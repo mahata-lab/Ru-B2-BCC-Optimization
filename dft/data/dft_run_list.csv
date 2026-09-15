@@ -1,0 +1,66 @@
+Run_ID,Group,Composition_Formula,Structure,Atoms,Description
+BASE_001,Baseline,Mo1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Mo
+BASE_002,Baseline,Cu1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Cu
+BASE_003,Baseline,Ta1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Ta
+BASE_004,Baseline,Al1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Al
+BASE_005,Baseline,Cr1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Cr
+BASE_006,Baseline,Hf1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Hf
+BASE_007,Baseline,Nb1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Nb
+BASE_008,Baseline,Si1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Si
+BASE_009,Baseline,Ru1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Ru
+BASE_010,Baseline,Ti1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Ti
+BASE_011,Baseline,Zr1,BCC/HCP_GroundState,1 or 2,Reference energy for pure Zr
+BASE_012,Baseline,W1,BCC/HCP_GroundState,1 or 2,Reference energy for pure W
+BASE_013,Baseline,V1,BCC/HCP_GroundState,1 or 2,Reference energy for pure V
+BIN_014,Binary_B2,Ru1Hf1,B2_Primitive,2,Pure Binary Ru-Hf
+BIN_015,Binary_B2,Ru1Ti1,B2_Primitive,2,Pure Binary Ru-Ti
+BIN_016,Binary_B2,Ru1Zr1,B2_Primitive,2,Pure Binary Ru-Zr
+BIN_017,Binary_B2,Ru1Al1,B2_Primitive,2,Pure Binary Ru-Al
+KUBE_018,Solubility_Study,Ru8Hf7Nb1,B2_SQS_16,16,Ru-Hf B2 with 12.5% Nb solubility
+KUBE_019,Solubility_Study,Ru8Hf6Nb2,B2_SQS_16,16,Ru-Hf B2 with 25% Nb solubility
+KUBE_020,Solubility_Study,Ru8Hf7Mo1,B2_SQS_16,16,Ru-Hf B2 with 12.5% Mo solubility
+KUBE_021,Solubility_Study,Ru8Hf6Mo2,B2_SQS_16,16,Ru-Hf B2 with 25% Mo solubility
+KUBE_022,Solubility_Study,Ru8Hf7Ta1,B2_SQS_16,16,Ru-Hf B2 with 12.5% Ta solubility
+KUBE_023,Solubility_Study,Ru8Hf6Ta2,B2_SQS_16,16,Ru-Hf B2 with 25% Ta solubility
+KUBE_024,Solubility_Study,Ru8Hf7V1,B2_SQS_16,16,Ru-Hf B2 with 12.5% V solubility
+KUBE_025,Solubility_Study,Ru8Hf6V2,B2_SQS_16,16,Ru-Hf B2 with 25% V solubility
+KUBE_026,Solubility_Study,Ru8Ti7Nb1,B2_SQS_16,16,Ru-Ti B2 with 12.5% Nb solubility
+KUBE_027,Solubility_Study,Ru8Ti6Nb2,B2_SQS_16,16,Ru-Ti B2 with 25% Nb solubility
+KUBE_028,Solubility_Study,Ru8Ti7Mo1,B2_SQS_16,16,Ru-Ti B2 with 12.5% Mo solubility
+KUBE_029,Solubility_Study,Ru8Ti6Mo2,B2_SQS_16,16,Ru-Ti B2 with 25% Mo solubility
+KUBE_030,Solubility_Study,Ru8Ti7Ta1,B2_SQS_16,16,Ru-Ti B2 with 12.5% Ta solubility
+KUBE_031,Solubility_Study,Ru8Ti6Ta2,B2_SQS_16,16,Ru-Ti B2 with 25% Ta solubility
+KUBE_032,Solubility_Study,Ru8Ti7V1,B2_SQS_16,16,Ru-Ti B2 with 12.5% V solubility
+KUBE_033,Solubility_Study,Ru8Ti6V2,B2_SQS_16,16,Ru-Ti B2 with 25% V solubility
+KUBE_034,Solubility_Study,Ru8Al7Nb1,B2_SQS_16,16,Ru-Al B2 with 12.5% Nb solubility
+KUBE_035,Solubility_Study,Ru8Al6Nb2,B2_SQS_16,16,Ru-Al B2 with 25% Nb solubility
+KUBE_036,Solubility_Study,Ru8Al7Mo1,B2_SQS_16,16,Ru-Al B2 with 12.5% Mo solubility
+KUBE_037,Solubility_Study,Ru8Al6Mo2,B2_SQS_16,16,Ru-Al B2 with 25% Mo solubility
+KUBE_038,Solubility_Study,Ru8Al7Ta1,B2_SQS_16,16,Ru-Al B2 with 12.5% Ta solubility
+KUBE_039,Solubility_Study,Ru8Al6Ta2,B2_SQS_16,16,Ru-Al B2 with 25% Ta solubility
+KUBE_040,Solubility_Study,Ru8Al7V1,B2_SQS_16,16,Ru-Al B2 with 12.5% V solubility
+KUBE_041,Solubility_Study,Ru8Al6V2,B2_SQS_16,16,Ru-Al B2 with 25% V solubility
+PEN_042,Ru_Substitution,Ru7Al1Hf8,B2_SQS_16,16,Replacing 12.5% Ru with Al in Ru-Hf
+PEN_043,Ru_Substitution,Ru6Al2Hf8,B2_SQS_16,16,Replacing 25% Ru with Al in Ru-Hf
+PEN_044,Ru_Substitution,Ru7Cr1Hf8,B2_SQS_16,16,Replacing 12.5% Ru with Cr in Ru-Hf
+PEN_045,Ru_Substitution,Ru6Cr2Hf8,B2_SQS_16,16,Replacing 25% Ru with Cr in Ru-Hf
+PEN_046,Ru_Substitution,Ru7Cu1Hf8,B2_SQS_16,16,Replacing 12.5% Ru with Cu in Ru-Hf
+PEN_047,Ru_Substitution,Ru6Cu2Hf8,B2_SQS_16,16,Replacing 25% Ru with Cu in Ru-Hf
+PEN_048,Ru_Substitution,Ru7Si1Hf8,B2_SQS_16,16,Replacing 12.5% Ru with Si in Ru-Hf
+PEN_049,Ru_Substitution,Ru6Si2Hf8,B2_SQS_16,16,Replacing 25% Ru with Si in Ru-Hf
+PEN_050,Ru_Substitution,Ru7Al1Ti8,B2_SQS_16,16,Replacing 12.5% Ru with Al in Ru-Ti
+PEN_051,Ru_Substitution,Ru6Al2Ti8,B2_SQS_16,16,Replacing 25% Ru with Al in Ru-Ti
+PEN_052,Ru_Substitution,Ru7Cr1Ti8,B2_SQS_16,16,Replacing 12.5% Ru with Cr in Ru-Ti
+PEN_053,Ru_Substitution,Ru6Cr2Ti8,B2_SQS_16,16,Replacing 25% Ru with Cr in Ru-Ti
+PEN_054,Ru_Substitution,Ru7Cu1Ti8,B2_SQS_16,16,Replacing 12.5% Ru with Cu in Ru-Ti
+PEN_055,Ru_Substitution,Ru6Cu2Ti8,B2_SQS_16,16,Replacing 25% Ru with Cu in Ru-Ti
+PEN_056,Ru_Substitution,Ru7Si1Ti8,B2_SQS_16,16,Replacing 12.5% Ru with Si in Ru-Ti
+PEN_057,Ru_Substitution,Ru6Si2Ti8,B2_SQS_16,16,Replacing 25% Ru with Si in Ru-Ti
+MAT_058,Disordered_Matrix,Nb8Mo8,BCC_SQS_16,16,Disordered Nb-Mo Matrix Reference
+MAT_059,Disordered_Matrix,Nb12Mo4,BCC_SQS_16,16,Disordered Nb-rich Matrix Reference
+MAT_060,Disordered_Matrix,Nb8Ta8,BCC_SQS_16,16,Disordered Nb-Ta Matrix Reference
+MAT_061,Disordered_Matrix,Nb12Ta4,BCC_SQS_16,16,Disordered Nb-rich Matrix Reference
+MAT_062,Disordered_Matrix,Mo8V8,BCC_SQS_16,16,Disordered Mo-V Matrix Reference
+MAT_063,Disordered_Matrix,Mo12V4,BCC_SQS_16,16,Disordered Mo-rich Matrix Reference
+MAT_064,Disordered_Matrix,Nb8Ti8,BCC_SQS_16,16,Disordered Nb-Ti Matrix Reference
+MAT_065,Disordered_Matrix,Nb12Ti4,BCC_SQS_16,16,Disordered Nb-rich Matrix Reference
